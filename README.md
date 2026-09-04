@@ -2,6 +2,9 @@
 
 Italiano Better VPN Protector automatically removes players connecting to a DayZ server from known VPN and datacenter IP addresses.
 
+**The lists in use provide around 76,279 IP ranges blocked between Datacenters/VPNs/Residental VPNs.**
+**Residental VPNs list is as best effort.**
+
 It connects through BattlEye RCon, checks players as they join, and can protect several DayZ servers from one installation. Optional Discord reports show connection status, errors, and kick details.
 
 ## Features
