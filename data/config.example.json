@@ -1,0 +1,33 @@
+{
+  "servers": [
+    {
+      "name": "MyDayZServer",
+      "host": "127.0.0.1",
+      "rcon_port": 2302,
+      "rcon_password": "changeme",
+      "discord_webhook_url": "https://discord.com/api/webhooks/xxxxxxxxxxxx/yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+      "poll_interval_seconds": 15
+    }
+  ],
+  "ip_lists": {
+    "update_interval_hours": 12,
+    "datacenter_url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt",
+    "vpn_url": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
+    "oooninja_enabled": true,
+    "oooninja_url": "https://az0-vpnip-public.oooninja.com/ip.txt",
+    "cache_dir": "./data/lists"
+  },
+  "custom_blocked_ips": [
+    "203.0.113.5",
+    "198.51.100.0/24"
+  ],
+  "whitelisted_guids": [
+    "c779d3141c0adcb906e45948212c5b3f"
+  ],
+  "kick_message": "Datacenter/VPN IP detected",
+  "custom_kick_message": "Blocked IP address",
+  "debug_mode": true,
+  "mask_ip_in_discord": true,
+  "config_reload_interval_seconds": 30,
+  "log_dir": "./data/logs"
+}

@@ -1,0 +1,8 @@
+services:
+  italiano-bvpn-protector:
+    image: ghcr.io/${GHCR_OWNER:-alanoitaliano}/italiano-bvpn-protector:${IMAGE_TAG:-latest}
+    build: .
+    container_name: italiano-bvpn-protector
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data

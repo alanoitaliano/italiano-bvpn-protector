@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local Docker Compose overrides
+.env
+compose.override.yaml
+GHCR-PUBLISHING-NOTES.md
+
+# Runtime data (real secrets, logs, cached IP lists)
+data/config.json
+data/*.lock
+data/logs/*
+!data/logs/.gitkeep
+data/lists/*
+!data/lists/.gitkeep

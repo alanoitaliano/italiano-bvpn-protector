@@ -1,0 +1,18 @@
+[project]
+name = "italiano-bvpn-protector"
+version = "0.7.9"
+description = "For support, join https://dsc.gg/italianodayz"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.27",
+    "berconpy>=3.1,<4",
+]
+
+[project.scripts]
+italiano-bvpn-protector = "italiano_bvpn_protector:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
